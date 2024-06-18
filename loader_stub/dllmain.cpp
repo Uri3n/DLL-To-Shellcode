@@ -15,7 +15,8 @@
 // The code for this loader is intentionally kept inside of a single function
 // in order to guarantee it's position independent nature.
 //
-
+// You can extract the bytes from this function using a tool such as Ghidra or IDA (any disassembler really).
+//
 
 extern __declspec(dllexport) bool reflective_stub(byte* module_base) {
 
