@@ -8,12 +8,12 @@
 // Position independant code that loads a DLL given it's base address in memory.
 // Relevant compiler flags:
 // - optimization: disabled
-// - whole program optimization: disables
+// - whole program optimization: disabled
 // - SDL checks: off
 // - security check (/GS): off
 //
 // The code for this loader is intentionally kept inside of a single function
-// in order to guarantee it's position independant nature.
+// in order to guarantee it's position independent nature.
 //
 
 
