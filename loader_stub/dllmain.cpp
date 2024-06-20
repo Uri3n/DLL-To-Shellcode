@@ -236,7 +236,7 @@ extern __declspec(dllexport) bool reflective_stub(byte* module_base) {
 
 
 
-    // Initializeimage_information()
+    // InitializeImageInformation()
     //-----------------------------------------------------------------------------------------------------------------------------//
 
     if (((PIMAGE_DOS_HEADER)module_base)->e_magic != IMAGE_DOS_SIGNATURE)
