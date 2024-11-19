@@ -12,12 +12,10 @@
     #include <Windows.h>
 #endif
 
-
 template<typename T> requires std::is_invocable_v<T>
 class defer_wrapper {
     T callable;
 public:
-
     auto call() -> decltype(callable()) {
         return callable();
     }
