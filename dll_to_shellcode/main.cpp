@@ -127,7 +127,7 @@ int main(int argc, char** argv)
 {
     if (argc < 3) {
         std::cout << " ~ DLL To Shellcode Converter ~ " << std::endl;
-        std::cout << "  Usage: [INPUT DLL FILE] [OUTPUT FILE] [TESTRUN]" << std::endl;
+        std::cout << "  Useage: [INPUT DLL FILE] [OUTPUT FILE] [TESTRUN]" << std::endl;
         std::cout << "  Examples: dll_to_shellcode input.dll out.bin testrun" << std::endl;
         std::cout << "            dll_to_shellcode input.dll out.bin" << std::endl;
         std::cout << "\n  Note: the \"testrun\" argument is optional, and only works on Windows." << std::endl;
